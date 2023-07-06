@@ -6,6 +6,8 @@ Projeto proposto na plataforma DevClub para treino de lógica. A aplicação te 
 
 🔗 [Clique aqui para acessar](https://alineguiseline.github.io/jokenpo/)
 
+![Desktop](./assets/screen-capture.png)
+
 ## Tecnologias utilizadas
 - HTML  
 - CSS  
