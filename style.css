@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsla(277, 79%, 84%, 1);
+    background: linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+}
+
+.container {
+    padding: 20px;
+    background-color: #f7eaea;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#jo {
+    color: #F4A7BD;
+}
+
+#ken {
+    color: #CEB1D4;
+}
+
+#po {
+    color: #acc4e7;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+
+    transition: opacity 0.5s ease-in-out;
+}
+
+.button-image {
+    width: 80px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: #F4A7BD;
+}
+
+#paper {
+    background-color: #CEB1D4;
+}
+
+#scissors {
+    background-color: #acc4e7;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: #B38ABA;
+    font-weight: bold;
+}
+
+.machine-score span {
+    color: #85A2CF;
+    font-weight: bold;
+}
